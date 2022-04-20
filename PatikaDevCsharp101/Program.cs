@@ -338,5 +338,53 @@ namespace PatikaDevCsharp101
                 default:
                     break;
             }
+
+            Console.Write("Limiti giriniz : ");
+            int limit = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= limit; i+=2)
+            {
+                Console.WriteLine(i);
+            }
+
+
+            int tekToplam = 0;
+            int ciftToplam = 0;
+
+            for (int i = 0; i <= 100; i++)
+            {
+                if (i%2 == 1)
+                {
+                    tekToplam += i; 
+                }
+                if (i%2 == 0)
+                {
+                    ciftToplam += i;
+                }
+            }
+
+            Console.WriteLine(tekToplam); 
+            Console.WriteLine(ciftToplam);
+
+
+            //break, continue
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i == 4)
+                    break;
+                Console.WriteLine(i);
+            }
+
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i == 4)
+                    continue;
+                Console.WriteLine(i);
+            }
+
+
+            Console.ReadKey();
+        }
+
     }
 }

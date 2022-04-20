@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaDevCsharp101", "PatikaDevCsharp101\PatikaDevCsharp101.csproj", "{ED48CD6E-B4A0-4C7B-8636-90C8EF1EDCFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop", "Loop\Loop.csproj", "{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{ED48CD6E-B4A0-4C7B-8636-90C8EF1EDCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED48CD6E-B4A0-4C7B-8636-90C8EF1EDCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED48CD6E-B4A0-4C7B-8636-90C8EF1EDCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
