@@ -53,8 +53,42 @@ namespace Metot
             //metot adı + parametre sayısı + parametre
 
 
+            // Rekürsif Metotlar - öz yineleme
+            // 3^4 = 3*3*3*3
+
+            //FOR İLE
+            int result = 1;
+            for (int i = 1; i <= 4; i++)
+            {
+                result = result * 3;
+            }
+            Console.WriteLine( "For ile : " + result);
+
+            // Metot ile
+            Islemler instance2 =  new Islemler();
+            Console.WriteLine( "Metot ile : " + instance2.Expo(3, 4));
+
+            // Extension Metot
+            string ifade3 = "Samet Akca Coder";
+            Console.WriteLine(ifade3);
+
+            bool BoslukVarMi = ifade3.CheckSpaces();
+            Console.WriteLine(BoslukVarMi);
+            if (BoslukVarMi)
+            {
+                Console.WriteLine(ifade3.RemoveSpaces());
+            }
+
+            Console.WriteLine(ifade3.MakeUpperCase());
+            Console.WriteLine(ifade3.MakeLowerCase());
+
+
+
 
         }
+
+       
+
         static int Topla(int deger1, int deger2)
         {
             return (deger1 + deger2);
@@ -62,6 +96,44 @@ namespace Metot
 
 
 
+    }
+
+    public static class Extension{
+
+        public static bool CheckSpaces(this string param)
+        {
+            return param.Contains(" ");
+        }
+
+        public static string RemoveSpaces(this string param)
+        {
+            string[] dizi = param.Split(" ");
+            return string.Join("", dizi);
+        }
+
+        public static string MakeUpperCase(this string param)
+        {
+
+            return param.ToUpper();
+        }
+        public static string MakeLowerCase(this string param)
+        {
+
+            return param.ToLower();
+        }
+
+    }
+
+    public class Islemler{
+
+        public int Expo(int sayi, int üs)
+        {
+
+            if (üs < 2)
+                return sayi;
+
+            return Expo(sayi, üs-1)* sayi;
+        }
     }
 
     class Metotlar
