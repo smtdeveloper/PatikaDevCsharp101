@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1", "Odev1\Odev1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazirMetotlar", "HazirMetotlar\HazirMetotlar.csproj", "{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{F623B187-9B1F-4C73-8D05-D4721E544956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F623B187-9B1F-4C73-8D05-D4721E544956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F623B187-9B1F-4C73-8D05-D4721E544956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F623B187-9B1F-4C73-8D05-D4721E544956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F623B187-9B1F-4C73-8D05-D4721E544956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
