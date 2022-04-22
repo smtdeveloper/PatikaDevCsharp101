@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrayList", "ArrayList\arrayList.csproj", "{731DECEA-3B05-4E29-B517-3210C460067E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{0F0B9300-F8EE-4B37-B489-78FE599A2249}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dictionary", "Dictionary\dictionary.csproj", "{0F0B9300-F8EE-4B37-B489-78FE599A2249}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HataYonetimi", "HataYonetimi\HataYonetimi.csproj", "{3555ACA1-5454-4DEA-BC75-CC9631AB85C9}"
 EndProject
