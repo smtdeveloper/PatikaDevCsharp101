@@ -7,17 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatikaDevCsharp101", "Patik
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop", "Loop\Loop.csproj", "{6CB1DAE4-253B-4E3E-B986-660A648B2CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatorler", "Operatorler\Operatorler.csproj", "{6121ADDF-5573-49F8-B166-57A6C6D1C1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operatorler", "Operatorler\Operatorler.csproj", "{6121ADDF-5573-49F8-B166-57A6C6D1C1AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipDonusumleri", "TipDonusumleri\TipDonusumleri.csproj", "{8D5C9808-DD71-4E92-8862-092632865DD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipDonusumleri", "TipDonusumleri\TipDonusumleri.csproj", "{8D5C9808-DD71-4E92-8862-092632865DD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KararYapıları", "KararYapıları\KararYapıları.csproj", "{7BFB174F-F338-46B0-B13A-DF5D9E147086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KararYapıları", "KararYapıları\KararYapıları.csproj", "{7BFB174F-F338-46B0-B13A-DF5D9E147086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{C411B82F-412D-4A63-9DFF-9BD7FBB2CCE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{C411B82F-412D-4A63-9DFF-9BD7FBB2CCE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metot", "Metot\Metot.csproj", "{5FC624B7-0849-4B9E-879A-92FDB507E2C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metot", "Metot\Metot.csproj", "{5FC624B7-0849-4B9E-879A-92FDB507E2C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev1", "Odev1\Odev1.csproj", "{79551321-7572-4017-9EEF-FC5404C1884F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev1", "Odev1\Odev1.csproj", "{79551321-7572-4017-9EEF-FC5404C1884F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HazirMetotlar", "HazirMetotlar\HazirMetotlar.csproj", "{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{79551321-7572-4017-9EEF-FC5404C1884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79551321-7572-4017-9EEF-FC5404C1884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79551321-7572-4017-9EEF-FC5404C1884F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AE5C34-3D6F-4622-9FF4-86ED421A01F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
