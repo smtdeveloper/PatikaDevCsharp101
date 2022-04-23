@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Odev2", "Odev2", "{A4FEF993
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar-Soru-1", "Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1.csproj", "{D133E649-B910-4D11-93DB-105E1B3CA321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koleksiyonlar-Soru-2", "Koleksiyonlar-Soru-2\Koleksiyonlar-Soru-2.csproj", "{4AC7E8F1-658B-4B04-AB09-0A684CD30812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,12 +97,17 @@ Global
 		{D133E649-B910-4D11-93DB-105E1B3CA321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D133E649-B910-4D11-93DB-105E1B3CA321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D133E649-B910-4D11-93DB-105E1B3CA321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC7E8F1-658B-4B04-AB09-0A684CD30812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC7E8F1-658B-4B04-AB09-0A684CD30812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC7E8F1-658B-4B04-AB09-0A684CD30812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC7E8F1-658B-4B04-AB09-0A684CD30812}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D133E649-B910-4D11-93DB-105E1B3CA321} = {A4FEF993-EC67-4A2E-90BE-73BE60C26B04}
+		{4AC7E8F1-658B-4B04-AB09-0A684CD30812} = {A4FEF993-EC67-4A2E-90BE-73BE60C26B04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF9D85BA-6B31-4F78-8067-BD744483A489}
