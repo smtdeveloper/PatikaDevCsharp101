@@ -35,6 +35,25 @@ namespace SınıfKavramı
             calisan2.Departman = "Frontend";
 
             calisan2.CalisanInfo();
+            Console.WriteLine(" --- ");
+
+            Personel personel1 = new Personel();
+            personel1.KimlikNo = "123467941";
+            personel1.Ad = "Eslem";
+            personel1.SoyAd = "Akca";
+            personel1.PersonelNo = 5;
+            personel1.Bolum = "Tasarım";
+
+            personel1.personelInfo();
+            Console.WriteLine(" --- ");
+
+            Personel personel2 = new Personel("126458545","Ali","Veli",55,"Satış");
+            personel2.personelInfo();
+            Console.WriteLine(" --- ");
+
+            Personel personel3 = new Personel("ahmet","as");
+            personel3.personelInfo();
+            Console.WriteLine(" --- ");
 
             Console.ReadLine();
         }
@@ -57,6 +76,44 @@ namespace SınıfKavramı
 
         }
 
+    }
+
+
+    class Personel
+    {
+        public string KimlikNo { get; set; }
+        public string Ad { get; set; }
+        public string SoyAd { get; set; }
+        public int PersonelNo { get; set; }
+        public string Bolum { get; set; }
+
+        public Personel(string kimlikNo, string ad, string soyAd, int personelNo, string bolum)
+        {
+            this.KimlikNo = kimlikNo;
+            this.Ad = ad;
+            this.SoyAd = soyAd;
+            this.PersonelNo = personelNo;
+            this.Bolum = bolum;
+        }
+        public Personel(string ad, string soyAd)
+        {
+            this.KimlikNo = ad;
+            this.Ad = soyAd;
+        }
+
+        public Personel()
+        {
+           
+        }
+
+        public void personelInfo()
+        {
+            Console.WriteLine("Çalışanın No : {0}", KimlikNo);
+            Console.WriteLine("Çalışanın Adı : {0}", Ad);
+            Console.WriteLine("Çalışanın Soyadı : {0}", SoyAd);
+            Console.WriteLine("Çalışanın No : {0}", PersonelNo);
+            Console.WriteLine("Çalışanın Departmanı : {0}", Bolum);
+        }
     }
 
 }
