@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationKavramı", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "staticSiniflar", "staticSiniflar\staticSiniflar.csproj", "{D6152E5B-62E6-4AB4-A2A1-667EDCA5D7DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct(Yapı)", "Struct(Yapı)\Struct(Yapı).csproj", "{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +129,14 @@ Global
 		{D6152E5B-62E6-4AB4-A2A1-667EDCA5D7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6152E5B-62E6-4AB4-A2A1-667EDCA5D7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6152E5B-62E6-4AB4-A2A1-667EDCA5D7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

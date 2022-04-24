@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D98C7B0D-ACA5-40D4-947B-85E0209A47CD}</ProjectGuid>
+    <ProjectGuid>{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Struct_Yapı_</RootNamespace>
-    <AssemblyName>Struct%28Yapı%29</AssemblyName>
+    <RootNamespace>Enum</RootNamespace>
+    <AssemblyName>Enum</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
