@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct(Yapı)", "Struct(Yap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance", "inheritance\inheritance.csproj", "{20B38D08-AE5A-4473-A606-2D9D3539F620}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF596CB1-F8AC-4744-B7C1-5C99CFA3473F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B38D08-AE5A-4473-A606-2D9D3539F620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B38D08-AE5A-4473-A606-2D9D3539F620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B38D08-AE5A-4473-A606-2D9D3539F620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B38D08-AE5A-4473-A606-2D9D3539F620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
