@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism(Çok Biçimcil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface(Arayüzler)", "Interface(Arayüzler)\Interface(Arayüzler).csproj", "{47884C96-75BD-4281-A7AA-39084ACE99F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonRehberiUygulaması", "TelefonRehberiUygulaması\TelefonRehberiUygulaması.csproj", "{3A7ECBFC-7B23-40C3-86C6-DF9C6B6E414E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{47884C96-75BD-4281-A7AA-39084ACE99F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47884C96-75BD-4281-A7AA-39084ACE99F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47884C96-75BD-4281-A7AA-39084ACE99F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7ECBFC-7B23-40C3-86C6-DF9C6B6E414E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7ECBFC-7B23-40C3-86C6-DF9C6B6E414E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7ECBFC-7B23-40C3-86C6-DF9C6B6E414E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7ECBFC-7B23-40C3-86C6-DF9C6B6E414E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
